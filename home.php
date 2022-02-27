@@ -66,7 +66,7 @@
                     $desc = strtr(html_entity_decode($row['description']),$trans);
                     $desc=str_replace(array("<li>","</li>"), array("",", "), $desc);
               ?>
-              <a class="prod-item text-dark" href="./index.php?page=view_product&c=<?php echo $row['item_code'] ?>" target="_blank" data-cat = '<?php echo $row['category_id'] ?>'>
+              <a class="prod-item text-dark" href="./shop.php?page=view_product&c=<?php echo $row['item_code'] ?>" target="_blank" data-cat = '<?php echo $row['category_id'] ?>'>
                 <div class="card my-1 mx-1 solid " style="width: 12rem;">
                   <div class="card-img-top item-img d-flex justify-content-center align-items-center">
                     <img class="card-img-top" src="<?php echo isset($img[0]) ? $img[0] : '' ?>" alt="Product Image">

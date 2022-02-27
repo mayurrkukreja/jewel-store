@@ -33,7 +33,7 @@
           </li>
         <?php else: ?>
           <li class="nav-item">
-            <a class="nav-link nav-login text-dark" href="index.php?page=my_order" id="login">
+            <a class="nav-link nav-login text-dark" href="shop.php?page=my_order" id="login">
               <b>My Orders</b>
             </a>
           </li>
@@ -50,7 +50,7 @@
                 </div>
                 
                 <div class="d-flex bg-light justify-content-center w-100 p-2">
-                    <a href="index.php?page=cart" class="btn btn-sm btn-primary btn-block col-sm-4 text-white"><i class="fa fa-edit"></i>  View Cart</a>
+                    <a href="shop.php?page=cart" class="btn btn-sm btn-primary btn-block col-sm-4 text-white"><i class="fa fa-edit"></i>  View Cart</a>
                 </div>
               </div>
           </li>
