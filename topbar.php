@@ -1,44 +1,44 @@
 <!-- Navbar -->
-  <nav class="main-header navbar navbar-expand navbar-primary navbar-light ">
+  <nav class="main-header navbar navbar-expand navbar-primary navbar-white ">
     <!-- Left navbar links -->
     <div class="container">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav text-dark">
         <?php if(isset($_SESSION['login_id'])): ?>
         <li class="nav-item">
           <!-- <a class="nav-link" data-widget="pushmenu" href="" role="button"><i class="fas fa-bars"></i></a> -->
         </li>
       <?php endif; ?>
         <li>
-          <a class="nav-link text-white"  href="./" role="button"> <large><b>jewel-Store</b></large></a>
+          <a class="nav-link text-dark"  href="./" role="button"> <large><b>JEWEL-STORE</b></large></a>
         </li>
       </ul>
 
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link nav-home" href="./">
+          <a class="nav-link nav-home text-dark" href="./">
             <b>Home</b>
           </a>
         </li>
         <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link nav-home" href="./">
+          <a class="nav-link nav-home text-dark" href="./">
             <b>About Us</b>
           </a>
         </li>
         <?php if(!isset($_SESSION['login_id'])): ?>
-          <li class="nav-item">
+          <li class="nav-item text-dark">
             <a class="nav-link nav-login" href="login.php" id="login">
-              <b>Signin</b>
+              <b>Login</b>
             </a>
           </li>
         <?php else: ?>
           <li class="nav-item">
-            <a class="nav-link nav-login" href="index.php?page=my_order" id="login">
+            <a class="nav-link nav-login text-dark" href="index.php?page=my_order" id="login">
               <b>My Orders</b>
             </a>
           </li>
           <li class="nav-item dropdown">
-              <a class="dropdown-toggle nav-link" data-toggle="dropdown"  href="javascript:void(0)" aria-expanded="true">
+              <a class="dropdown-toggle nav-link text-dark" data-toggle="dropdown"  href="javascript:void(0)" aria-expanded="true">
                 <div class="badge badge-danger cart-count">0</div>
                 <i class="fa fa-shopping-cart"></i>
                 <span>Cart</span>
