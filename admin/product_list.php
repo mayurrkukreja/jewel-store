@@ -3,7 +3,7 @@
 	<div class="card card-outline card-primary">
 		<div class="card-header">
 			<div class="card-tools">
-				<a class="btn btn-block btn-sm btn-default btn-flat border-primary" href="./shop.php?page=new_product"><i class="fa fa-plus"></i> Add New</a>
+				<a class="btn btn-block btn-sm btn-default btn-flat border-primary" href="./index.php?page=new_product"><i class="fa fa-plus"></i> Add New</a>
 			</div>
 		</div>
 		<div class="card-body">
@@ -40,10 +40,10 @@
 						<td class="text-right"><b><?php echo number_format($row['price']) ?></b></td>
 						<td class="text-center">
 		                    <div class="btn-group">
-		                        <a href="./shop.php?page=edit_product&id=<?php echo $row['id'] ?>" class="btn btn-primary btn-flat">
+		                        <a href="./index.php?page=edit_product&id=<?php echo $row['id'] ?>" class="btn btn-primary btn-flat">
 		                          <i class="fas fa-edit"></i>
 		                        </a>
-		                         <a href="./shop.php?page=view_product&id=<?php echo $row['id'] ?>" class="btn btn-info btn-flat">
+		                         <a href="./index.php?page=view_product&id=<?php echo $row['id'] ?>" class="btn btn-info btn-flat">
 		                          <i class="fas fa-eye"></i>
 		                        </a>
 		                        <button type="button" class="btn btn-danger btn-flat delete_product" data-id="<?php echo $row['id'] ?>">

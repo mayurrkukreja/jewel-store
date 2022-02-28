@@ -48,7 +48,7 @@
 				if(resp == 1){
 					alert_toast('Data successfully saved',"success");
 					setTimeout(function(){
-						location.href = 'shop.php?page=category_list'
+						location.href = 'index.php?page=category_list'
 					},2000)
 				}
 			}

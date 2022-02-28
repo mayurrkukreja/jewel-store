@@ -3,7 +3,7 @@
 	<div class="card card-outline card-primary">
 		<div class="card-header">
 			<div class="card-tools">
-				<a class="btn btn-block btn-sm btn-default btn-flat border-primary" href="./shop.php?page=new_category"><i class="fa fa-plus"></i> Add New</a>
+				<a class="btn btn-block btn-sm btn-default btn-flat border-primary" href="./index.php?page=new_category"><i class="fa fa-plus"></i> Add New</a>
 			</div>
 		</div>
 		<div class="card-body">
@@ -38,7 +38,7 @@
 						<td><b class="truncate"><?php echo strip_tags($desc) ?></b></td>
 						<td class="text-center">
 		                    <div class="btn-group">
-		                        <a href="./shop.php?page=edit_category&id=<?php echo $row['id'] ?>" class="btn btn-primary btn-flat">
+		                        <a href="./index.php?page=edit_category&id=<?php echo $row['id'] ?>" class="btn btn-primary btn-flat">
 		                          <i class="fas fa-edit"></i>
 		                        </a>
 		                        <button type="button" class="btn btn-danger btn-flat delete_category" data-id="<?php echo $row['id'] ?>">
