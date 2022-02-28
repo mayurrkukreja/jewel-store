@@ -39,13 +39,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./index.php?page=new_category" class="nav-link nav-new_category tree-item">
+                <a href="./shop.php?page=new_category" class="nav-link nav-new_category tree-item">
                   <i class="fas fa-angle-right nav-icon"></i>
                   <p>Add New</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index.php?page=category_list" class="nav-link nav-category_list tree-item">
+                <a href="./shop.php?page=category_list" class="nav-link nav-category_list tree-item">
                   <i class="fas fa-angle-right nav-icon"></i>
                   <p>List</p>
                 </a>
@@ -53,7 +53,7 @@
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a href="./index.php?page=orders" class="nav-link nav-orders">
+            <a href="./shop.php?page=orders" class="nav-link nav-orders">
               <i class="nav-icon fas fa-list-alt"></i>
               <p>
                 Orders
@@ -71,13 +71,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./index.php?page=new_product" class="nav-link nav-new_product tree-item">
+                <a href="./shop.php?page=new_product" class="nav-link nav-new_product tree-item">
                   <i class="fas fa-angle-right nav-icon"></i>
                   <p>Add New</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index.php?page=product_list" class="nav-link nav-product_list tree-item">
+                <a href="./shop.php?page=product_list" class="nav-link nav-product_list tree-item">
                   <i class="fas fa-angle-right nav-icon"></i>
                   <p>List</p>
                 </a>
@@ -94,13 +94,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./index.php?page=new_user" class="nav-link nav-new_user tree-item">
+                <a href="./shop.php?page=new_user" class="nav-link nav-new_user tree-item">
                   <i class="fas fa-angle-right nav-icon"></i>
                   <p>Add New</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index.php?page=user_list" class="nav-link nav-user_list tree-item">
+                <a href="./shop.php?page=user_list" class="nav-link nav-user_list tree-item">
                   <i class="fas fa-angle-right nav-icon"></i>
                   <p>List</p>
                 </a>

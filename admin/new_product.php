@@ -378,7 +378,7 @@ $(function () {
 				if(resp > 0){
 					alert_toast('Data successfully saved',"success");
 					setTimeout(function(){
-						location.href = 'index.php?page=view_product&id='+resp
+						location.href = 'shop.php?page=view_product&id='+resp
 					},2000)
 				}
 			}
