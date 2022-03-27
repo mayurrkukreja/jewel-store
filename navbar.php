@@ -34,7 +34,7 @@
                 <!-- Link--><a class="nav-link" href="shop.php">Shop</a>
               </li>
               <li class="nav-item">
-                <!-- Link--><a class="nav-link" href="about.html">About us</a>
+                <!-- Link--><a class="nav-link" href="about.php">About us</a>
               </li>
             </ul>
             <ul class="navbar-nav ms-auto">
